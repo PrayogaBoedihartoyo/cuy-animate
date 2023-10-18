@@ -14,6 +14,8 @@ const InputSearch = () => {
     const handleKeyPress = (event) => {
         if (event.key === "Enter") {
             handleSearch(event);
+        } else {
+            return;
         }
     }
 
